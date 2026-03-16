@@ -13,9 +13,7 @@ Built with Python, the official MCP SDK, psycopg3, and Docker.
 
 ## 🧩 The Challenge
 
-Business teams rely on sales data to make strategic decisions — identifying top customers,
-tracking revenue trends, monitoring sales rep performance, and spotting growth opportunities.
-However, accessing this data typically requires:
+Business teams rely on sales data to make strategic decisions — identifying top customers, tracking revenue trends, monitoring sales rep performance, and spotting growth opportunities. However, accessing this data typically requires:
 
 - **SQL expertise** — writing complex queries with joins, aggregations, and filters
 - **Database access** — navigating credentials, connections, and security policies
@@ -98,8 +96,11 @@ To Connect the MCP server with Claude, Open Claude Desktop go to "Settings" then
   }
 }
 ```
----
-Restart Claude, and you are ready to chat. Try sending this chat to Claude:
+Restart Claude, and you are ready to chat.
+
+----
+
+## Sample Questions
 
 -"Show me revenue by region for 2024"
 -"How is Sarah Mitchell performing against her quota?"

@@ -13,15 +13,13 @@ Built with Python, the official MCP SDK, psycopg3, and Docker.
 
 ## 🧩 The Challenge
 
-Business teams rely on sales data to make strategic decisions — identifying top customers, tracking revenue trends, monitoring sales rep performance, and spotting growth opportunities. However, accessing this data typically requires:
+Business teams rely on sales data to make strategic decisions such as identifying top customers, tracking revenue trends or monitoring sales rep performance. However, accessing this data typically requires:
 
 - **SQL expertise** — writing complex queries with joins, aggregations, and filters
 - **Database access** — navigating credentials, connections, and security policies
-- **Context switching** — moving between BI tools, spreadsheets, and communication platforms
 - **Rigid dashboards** — pre-built reports that can't answer ad-hoc questions
 
-This creates a bottleneck where business stakeholders depend on data analysts or engineers
-for every new question, slowing down decision-making.
+This creates a bottleneck where business stakeholders depend on data analysts or engineers for every new question, slowing down decision-making.
 
 ---
 
@@ -60,8 +58,8 @@ Using this tool, users can ask questions like "Who are our top 10 enterprise cus
 
 ## 📋 Prerequisites
 
-- **[Docker Desktop](https://www.docker.com/products/docker-desktop/)** (v4.0+)
-- **[Claude Desktop](https://claude.ai/download)** (v0.7+)
+- **[Docker Desktop](https://www.docker.com/products/docker-desktop/)** 
+- **[Claude Desktop](https://claude.ai/download)**
 
 ---
 

@@ -29,7 +29,7 @@ for every new question, slowing down decision-making.
 
 This project implements a **Model Context Protocol (MCP) server** that acts as a bridge between an LLM and a PostgreSQL database. It allows users to ask questions about sales data in **plain English** and get accurate, real-time answers.
 
-Using this tool, users can ask questions like "Who are our top 10 enterprise customers?" or "Tell me everything about [Customer], including their order history." in plain English and get Real Time results and analysis directly from a chatbot.
+Using this tool, users can ask questions like "Who are our top 10 enterprise customers?" or "Tell me everything about [Customer], including their order history." in plain English and get Real Time results and analytics directly from a chatbot.
 
 ---
 

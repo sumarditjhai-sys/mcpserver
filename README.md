@@ -113,4 +113,15 @@ Restart Claude, and you are ready to chat. Try sending this chat to Claude:
   <img src="./docs/screen01.png" alt="Screenshot" width="600" />
 </div>
 
+<div align="center">
+  <img src="./docs/screen02.png" alt="Screenshot" width="600" />
+</div>
+
+<div align="center">
+  <img src="./docs/screen03.png" alt="Screenshot" width="600" />
+</div>
+
+<div align="center">
+  <img src="./docs/screen04.png" alt="Screenshot" width="600" />
+</div>
 ---

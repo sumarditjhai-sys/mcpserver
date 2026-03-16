@@ -30,9 +30,9 @@ for every new question, slowing down decision-making.
 
 ## 💡 The Solution
 
-This project implements a **Model Context Protocol (MCP) server** that acts as a bridge
-between an LLM (like Claude) and a PostgreSQL sales database. It allows users to ask
-questions about sales data in **plain English** and get accurate, real-time answers.
+This project implements a **Model Context Protocol (MCP) server** that acts as a bridge between an LLM and a PostgreSQL database. It allows users to ask questions about sales data in **plain English** and get accurate, real-time answers.
+
+Using this tool, users can ask questions like "Who are our top 10 enterprise customers?" or "Tell me everything about [Customer], including their order history." in plain english and get Real Time results and analysis directly from a chatbot.
 
 ---
 
@@ -99,4 +99,8 @@ To Connect MCP with Claude Desktop, go to "Settings" then "Developer" then "Edit
   }
 }
 ```
-Restart Claude, and you are ready to chat.
+Restart Claude, and you are ready to chat. Try sending this chat to Claude:
+
+"Show me revenue by region for 2024"
+"How is Sarah Mitchell performing against her quota?"
+"Show me the top 5 products by revenue. Which product category generates the most income?"

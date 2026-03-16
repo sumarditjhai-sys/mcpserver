@@ -9,7 +9,6 @@ Built with Python, the official MCP SDK, psycopg3, and Docker.
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?logo=postgresql&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-1.2+-green)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
@@ -82,3 +81,15 @@ and the MCP server automatically.
 git clone https://github.com/yourusername/mcp-sales-server.git
 cd mcp-sales-server
 docker compose --env-file .env.docker up --build -d
+
+
+---
+
+<div align="center">
+  <img src="./backend/docs/gameplay.png" alt="LLM Chess Gameplay Demo" width="600" />
+</div>
+<div align="center">
+  <img src="./backend/docs/checkmate.png" alt="LLM Chess Gameplay Demo" width="600" />
+</div>
+
+---

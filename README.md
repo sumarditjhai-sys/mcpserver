@@ -1,7 +1,6 @@
 # 🔧 MCP Sales Analytics Server
 
-A **Model Context Protocol (MCP)** server that enables Large Language Models (LLMs) to
-directly query and analyze a PostgreSQL sales database through natural language conversations.
+A **Model Context Protocol (MCP)** server that enables Large Language Models (LLMs) to directly query and analyze a PostgreSQL sales database through natural language conversations.
 
 Built with Python, the official MCP SDK, psycopg3, and Docker.
 
@@ -99,6 +98,7 @@ To Connect the MCP server with Claude, Open Claude Desktop go to "Settings" then
   }
 }
 ```
+---
 Restart Claude, and you are ready to chat. Try sending this chat to Claude:
 
 -"Show me revenue by region for 2024"

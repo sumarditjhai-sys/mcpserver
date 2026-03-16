@@ -76,11 +76,11 @@ The fastest way to get everything running. Docker handles PostgreSQL, data seedi
 and the MCP server automatically.
 
 ```bash
-  git clone https://github.com/yourusername/mcp-sales-server.git
-  cd mcp-sales-server
+  git clone https://github.com/sumarditjhai-sys/mcpserver.git
+  cd mcpserver
   docker compose --env-file .env.docker up --build -d
 ```
-To Connect MCP with Claude Desktop, go to "Settings" then "Developer" then "Edit Config". Replace "claude_desktop_config.json" content with 
+To Connect the MCP server with Claude, Open Claude Desktop go to "Settings" then "Developer" then "Edit Config". Replace "claude_desktop_config.json" contents with 
 
 ```bash
 {
@@ -103,4 +103,6 @@ Restart Claude, and you are ready to chat. Try sending this chat to Claude:
 
 "Show me revenue by region for 2024"
 "How is Sarah Mitchell performing against her quota?"
+"Show me the top 5 products by revenue. Which product category generates the most income?"
+"What's our total revenue by region for 2024? Which region is performing best?"
 "Show me the top 5 products by revenue. Which product category generates the most income?"

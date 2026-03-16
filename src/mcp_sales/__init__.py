@@ -1,0 +1,1 @@
+"""MCP Sales Analytics Server."""

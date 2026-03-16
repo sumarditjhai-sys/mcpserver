@@ -1,0 +1,31 @@
+[project]
+name = "mcp-sales-server"
+version = "0.1.0"
+description = "MCP server for querying a PostgreSQL sales database"
+requires-python = ">=3.11"
+authors = [
+    { name = "Sumardi Tjhai", email = "sumardi.tjhai@gmail.com" }
+]
+dependencies = [
+    "mcp[cli]>=1.2.0",
+    "psycopg[binary]>=3.2.0",
+    "psycopg-pool>=3.2.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]
+
+# ✅ FIXED: Correct build backend
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+mcp-sales = "mcp_sales.server:main"

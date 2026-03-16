@@ -75,21 +75,28 @@ questions about sales data in **plain English** and get accurate, real-time answ
 The fastest way to get everything running. Docker handles PostgreSQL, data seeding,
 and the MCP server automatically.
 
-#### 1. Clone the Repository
+```bash
+  git clone https://github.com/yourusername/mcp-sales-server.git
+  cd mcp-sales-server
+  docker compose --env-file .env.docker up --build -d
+```
+To Connect MCP with Claude Desktop, go to "Settings" then "Developer" then "Edit Config". Replace "claude_desktop_config.json" content with 
 
 ```bash
-git clone https://github.com/yourusername/mcp-sales-server.git
-cd mcp-sales-server
-docker compose --env-file .env.docker up --build -d
-
-
----
-
-<div align="center">
-  <img src="./backend/docs/gameplay.png" alt="LLM Chess Gameplay Demo" width="600" />
-</div>
-<div align="center">
-  <img src="./backend/docs/checkmate.png" alt="LLM Chess Gameplay Demo" width="600" />
-</div>
-
----
+{
+  "mcpServers": {
+    "sales-analytics": {
+      "command": "docker",
+      "args": [
+        "exec",
+        "-i",
+        "mcp-sales-server",
+        "python",
+        "-m",
+        "mcp_sales.server"
+      ]
+    }
+  }
+}
+```
+Restart Claude, and you are ready to chat.

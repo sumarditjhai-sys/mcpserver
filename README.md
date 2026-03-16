@@ -77,7 +77,7 @@ and the MCP server automatically.
   cd mcpserver
   docker compose --env-file .env.docker up --build -d
 ```
-To Connect the MCP server with Claude, Open Claude Desktop go to "Settings" then "Developer" then "Edit Config". Replace "claude_desktop_config.json" contents with 
+To Connect the MCP server with Claude, open Claude Desktop go to "Settings" then "Developer" then "Edit Config". Replace "claude_desktop_config.json" contents with 
 
 ```bash
 {
@@ -96,17 +96,18 @@ To Connect the MCP server with Claude, Open Claude Desktop go to "Settings" then
   }
 }
 ```
-Restart Claude, and you are ready to chat.
+Restart Claude, and you are ready to chat. Try sending these questions:
 
-----
+-Show me revenue by region for 2024
 
-## Sample Questions
+-How is Sarah Mitchell performing against her quota?
 
--"Show me revenue by region for 2024"
--"How is Sarah Mitchell performing against her quota?"
--"Show me the top 5 products by revenue. Which product category generates the most income?"
--"What's our total revenue by region for 2024? Which region is performing best?"
--"Show me the top 5 products by revenue. Which product category generates the most income?"
+-Show me the top 5 products by revenue. Which product category generates the most income?
+
+-What's our total revenue by region for 2024? Which region is performing best?
+
+-Show me the top 5 products by revenue. Which product category generates the most income?
+
 
 ---
 

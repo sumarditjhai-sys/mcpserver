@@ -106,3 +106,11 @@ Restart Claude, and you are ready to chat. Try sending this chat to Claude:
 "Show me the top 5 products by revenue. Which product category generates the most income?"
 "What's our total revenue by region for 2024? Which region is performing best?"
 "Show me the top 5 products by revenue. Which product category generates the most income?"
+
+---
+
+<div align="center">
+  <img src="./docs/screen01.png" alt="Screenshot" width="600" />
+</div>
+
+---

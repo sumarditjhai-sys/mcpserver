@@ -101,11 +101,11 @@ To Connect the MCP server with Claude, Open Claude Desktop go to "Settings" then
 ```
 Restart Claude, and you are ready to chat. Try sending this chat to Claude:
 
-"Show me revenue by region for 2024"
-"How is Sarah Mitchell performing against her quota?"
-"Show me the top 5 products by revenue. Which product category generates the most income?"
-"What's our total revenue by region for 2024? Which region is performing best?"
-"Show me the top 5 products by revenue. Which product category generates the most income?"
+-"Show me revenue by region for 2024"
+-"How is Sarah Mitchell performing against her quota?"
+-"Show me the top 5 products by revenue. Which product category generates the most income?"
+-"What's our total revenue by region for 2024? Which region is performing best?"
+-"Show me the top 5 products by revenue. Which product category generates the most income?"
 
 ---
 
